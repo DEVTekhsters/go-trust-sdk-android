@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.urllauncher",
+    "module": "url_launcher_android_debug",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_debug-1.1.0.aar",
+          "url": "url_launcher_android_debug-1.1.0.aar",
+          "size": 23553,
+          "sha512": "7dc7b2938351ee1b1027923b7aa7e5d646285910e07400be5decf58d8b2c6def75d3d1527536f70fef730c99c257a8ec7309ce013db29e62d6a35a4dcac20db7",
+          "sha256": "ba73ad07ad32e90cf403a1e08380824672fff9fb30ce1270ecd8c1f9f8117d26",
+          "sha1": "b4f79d7a2eaee53ec9bcc6cbd1f1225d26a456ad",
+          "md5": "b7af7651a797c4b7b35b840c3036f32f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-035316565ad77281a75305515e4682e6c4c6f7ca"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "url_launcher_android_debug-1.1.0.aar",
+          "url": "url_launcher_android_debug-1.1.0.aar",
+          "size": 23553,
+          "sha512": "7dc7b2938351ee1b1027923b7aa7e5d646285910e07400be5decf58d8b2c6def75d3d1527536f70fef730c99c257a8ec7309ce013db29e62d6a35a4dcac20db7",
+          "sha256": "ba73ad07ad32e90cf403a1e08380824672fff9fb30ce1270ecd8c1f9f8117d26",
+          "sha1": "b4f79d7a2eaee53ec9bcc6cbd1f1225d26a456ad",
+          "md5": "b7af7651a797c4b7b35b840c3036f32f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "url_launcher_android_debug-1.1.0-sources.jar",
+          "url": "url_launcher_android_debug-1.1.0-sources.jar",
+          "size": 9240,
+          "sha512": "96203655c54f593d8ddedb3299b0ddcc177c7e6c8e635eadda8d8f8f0f604e71d5fc6b36eb8b2f922baeb81e55c26dd34484097bbf501d7ec4f5a263e8de468f",
+          "sha256": "403be098a3898c738feb23e5ee820f592ee645291c9afff4edaa36c07109c6bb",
+          "sha1": "dfbf01f9b46e2ade611ca34f5d1b3dc4e7955855",
+          "md5": "2d0e4b6271a13dd49a57b108d3cecf33"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "url_launcher_android_debug-1.1.0-javadoc.jar",
+          "url": "url_launcher_android_debug-1.1.0-javadoc.jar",
+          "size": 332790,
+          "sha512": "3f9330513a0872269e3677295a6a5039e2e4f03ded382ee06fdc1a2a1db03acf1375baf3fcf2db6603cd965bdce6ec8df3c1f57f87c0749fc75586fc5f504cca",
+          "sha256": "950cd25b1023a4c248c2e42f89172966e52c2748229b8ea542196d5eb80d9b12",
+          "sha1": "da3f1ec1ce2c83560d37cb419c017252b288efe4",
+          "md5": "3080ba8ac0ca664e506e78696a379916"
+        }
+      ]
+    }
+  ]
+}
