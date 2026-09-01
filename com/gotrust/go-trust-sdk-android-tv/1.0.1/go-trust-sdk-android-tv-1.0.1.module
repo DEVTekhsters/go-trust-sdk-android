@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gotrust",
+    "module": "go-trust-sdk-android-tv",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.gotrust",
+          "module": "go-trust-sdk-android",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "go-trust-sdk-android-tv-1.0.1.aar",
+          "url": "go-trust-sdk-android-tv-1.0.1.aar",
+          "size": 430819,
+          "sha512": "41d7e7d99515ed04a0c92d41361c9b9757735394f838e2f35fc642bbf8037665dac0c5462140dba236d48c74dd8cd5fcee1c39179e73b23dc58688463dc3fc38",
+          "sha256": "639ee957616706c23c2530e6cb6b397db40df5d8eb1dabf823994f4c446e21b6",
+          "sha1": "5b41c072ef4bbee57c3a7e62a1e163e71a056c73",
+          "md5": "03b236bd071259d5d490448bf7254def"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.tv",
+          "module": "tv-foundation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.tv",
+          "module": "tv-material",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.gotrust",
+          "module": "go-trust-sdk-android",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "go-trust-sdk-android-tv-1.0.1.aar",
+          "url": "go-trust-sdk-android-tv-1.0.1.aar",
+          "size": 430819,
+          "sha512": "41d7e7d99515ed04a0c92d41361c9b9757735394f838e2f35fc642bbf8037665dac0c5462140dba236d48c74dd8cd5fcee1c39179e73b23dc58688463dc3fc38",
+          "sha256": "639ee957616706c23c2530e6cb6b397db40df5d8eb1dabf823994f4c446e21b6",
+          "sha1": "5b41c072ef4bbee57c3a7e62a1e163e71a056c73",
+          "md5": "03b236bd071259d5d490448bf7254def"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "go-trust-sdk-android-tv-1.0.1-sources.jar",
+          "url": "go-trust-sdk-android-tv-1.0.1-sources.jar",
+          "size": 78361,
+          "sha512": "4e33f3381f3eca5f218d03d3032c92d292f4ebf6f4a2290816fa5223d961923a438cf5e737e82ebbd3beefb53886659363db52fd798ea087901bf50c84599f3f",
+          "sha256": "0b065c6206eba45bbe2c88216ca404997c3e954daa0f08cd2dbb9e961277fb2c",
+          "sha1": "e6dc5ceca1fe9d838ddfcb24bd72bf4868b623f0",
+          "md5": "3c7a677cca388b009248989afbd6a2cb"
+        }
+      ]
+    }
+  ]
+}
