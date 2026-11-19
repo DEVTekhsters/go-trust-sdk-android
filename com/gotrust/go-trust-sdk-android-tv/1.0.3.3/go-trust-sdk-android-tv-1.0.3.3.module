@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gotrust",
+    "module": "go-trust-sdk-android-tv",
+    "version": "1.0.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.gotrust",
+          "module": "go-trust-sdk-android",
+          "version": {
+            "requires": "1.0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "go-trust-sdk-android-tv-1.0.3.3.aar",
+          "url": "go-trust-sdk-android-tv-1.0.3.3.aar",
+          "size": 560438,
+          "sha512": "6871b2f532feca141216a82efd954df2cfc9d749797a45fb8986e3354b2ad132536fec76ca2f159f5fccbe17fc048aa9a4b0bd482605921e2fa9fc3ffe71ce9d",
+          "sha256": "54f0c233aa5926e0b3bda09d9e0b053a4560d16633750cf7bf24758ff361d6b2",
+          "sha1": "168d10fe93774b60e80498205dda091c40c92f2b",
+          "md5": "ed55331d2e40eedb82d02e01519015e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "androidx.tv",
+          "module": "tv-foundation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.tv",
+          "module": "tv-material",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-core",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.7.8"
+          }
+        },
+        {
+          "group": "com.gotrust",
+          "module": "go-trust-sdk-android",
+          "version": {
+            "requires": "1.0.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "go-trust-sdk-android-tv-1.0.3.3.aar",
+          "url": "go-trust-sdk-android-tv-1.0.3.3.aar",
+          "size": 560438,
+          "sha512": "6871b2f532feca141216a82efd954df2cfc9d749797a45fb8986e3354b2ad132536fec76ca2f159f5fccbe17fc048aa9a4b0bd482605921e2fa9fc3ffe71ce9d",
+          "sha256": "54f0c233aa5926e0b3bda09d9e0b053a4560d16633750cf7bf24758ff361d6b2",
+          "sha1": "168d10fe93774b60e80498205dda091c40c92f2b",
+          "md5": "ed55331d2e40eedb82d02e01519015e4"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "go-trust-sdk-android-tv-1.0.3.3-sources.jar",
+          "url": "go-trust-sdk-android-tv-1.0.3.3-sources.jar",
+          "size": 114403,
+          "sha512": "5d4e2cea517a2e3dcd4ea987cec345942864bbe1e7a7f480d2a6071d99bae08738047d0c4a560c012f6d0cd89b67b7b20ab90a8c4b50cc8014f5f86f45db8410",
+          "sha256": "5e829c20b5815d55f9164122aeb9d068f6a3ebc07a31789961c60b190e500ee2",
+          "sha1": "0c1bc4d8565b287062dc6650572fe844206eb123",
+          "md5": "796a73da1428ed2f3a754b11238a6e22"
+        }
+      ]
+    }
+  ]
+}
